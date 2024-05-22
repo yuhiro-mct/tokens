@@ -1,0 +1,24 @@
+{
+  "Mobile Screen": {
+    "$type": "grid",
+    "$description": "Mobile screen grid with 16px margin on left and right edge.",
+    "$value": [
+      {
+        "pattern": "columns",
+        "visible": true,
+        "alignment": "stretch",
+        "color": "#ff00001a",
+        "gutterSize": "1px",
+        "count": 1,
+        "offset": "{margin.Mobile}"
+      }
+    ]
+  },
+  ".theemo": {
+    "config": {
+      "$type": "grid",
+      "$description": "{\"styles\":[],\"variables\":[]}",
+      "$value": []
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "name": "Design Tokens",
+  "collections": {
+    "Primitive Tokens": {
+      "modes": {
+        "default": [
+          "Primitive Tokens.default.tokens.json"
+        ]
+      }
+    },
+    "": {
+      "modes": {
+        "Localization": [
+          ".Localization.English.tokens.json",
+          ".Localization.Spanish.tokens.json"
+        ],
+        "Break Points": [
+          ".Break Points.Mobile.tokens.json",
+          ".Break Points.Desktop.tokens.json"
+        ]
+      }
+    },
+    "Semantic Tokens": {
+      "modes": {
+        "Default Mode": [
+          "Semantic Tokens.Default Mode.tokens.json"
+        ]
+      }
+    },
+    "Brand Skin": {
+      "modes": {
+        "Mercatus": [
+          "Brand Skin.Mercatus.tokens.json"
+        ],
+        "DEMO Supermarkets": [
+          "Brand Skin.DEMO Supermarkets.tokens.json"
+        ]
+      }
+    }
+  },
+  "styles": {
+    "text": [
+      "text.styles.tokens.json"
+    ],
+    "effect": [
+      "effect.styles.tokens.json"
+    ],
+    "color": [
+      "color.styles.tokens.json"
+    ],
+    "grid": [
+      "grid.styles.tokens.json"
+    ]
+  }
+}

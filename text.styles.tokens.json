@@ -1,0 +1,716 @@
+{
+  "Body": {
+    "Medium": {
+      "Regular": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "Lexend",
+          "fontSize": "16px",
+          "fontWeight": 300,
+          "letterSpacing": "0%",
+          "lineHeight": "24px",
+          "textTransform": "none",
+          "textDecoration": "none"
+        }
+      },
+      "Emphasized": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "Lexend",
+          "fontSize": "16px",
+          "fontWeight": 400,
+          "letterSpacing": "0%",
+          "lineHeight": "24px",
+          "textTransform": "none",
+          "textDecoration": "none"
+        }
+      },
+      "Strikethrough": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "Lexend",
+          "fontSize": "16px",
+          "fontWeight": 400,
+          "letterSpacing": "0%",
+          "lineHeight": "24px",
+          "textTransform": "none",
+          "textDecoration": "line-through"
+        }
+      }
+    },
+    "Small": {
+      "Regular": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "Lexend",
+          "fontSize": "14px",
+          "fontWeight": 300,
+          "letterSpacing": "0%",
+          "lineHeight": "20px",
+          "textTransform": "none",
+          "textDecoration": "none"
+        }
+      },
+      "Emphasized": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "Lexend",
+          "fontSize": "14px",
+          "fontWeight": 400,
+          "letterSpacing": "0%",
+          "lineHeight": "20px",
+          "textTransform": "none",
+          "textDecoration": "none"
+        }
+      }
+    }
+  },
+  "Subtext": {
+    "Regular": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Lexend",
+        "fontSize": "12px",
+        "fontWeight": 300,
+        "letterSpacing": "0%",
+        "lineHeight": "16px",
+        "textTransform": "none",
+        "textDecoration": "none"
+      }
+    },
+    "Emphasized": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Lexend",
+        "fontSize": "12px",
+        "fontWeight": 400,
+        "letterSpacing": "0%",
+        "lineHeight": "16px",
+        "textTransform": "none",
+        "textDecoration": "none"
+      }
+    },
+    "Regular Strikethrough": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Lexend",
+        "fontSize": "12px",
+        "fontWeight": 300,
+        "letterSpacing": "0%",
+        "lineHeight": "16px",
+        "textTransform": "none",
+        "textDecoration": "line-through"
+      }
+    },
+    "Emphasized Strikethrough": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Lexend",
+        "fontSize": "12px",
+        "fontWeight": 400,
+        "letterSpacing": "0%",
+        "lineHeight": "16px",
+        "textTransform": "none",
+        "textDecoration": "line-through"
+      }
+    }
+  },
+  "Caption": {
+    "Regular": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Lexend",
+        "fontSize": "11px",
+        "fontWeight": 300,
+        "letterSpacing": "0%",
+        "lineHeight": "14px",
+        "textTransform": "none",
+        "textDecoration": "none"
+      }
+    },
+    "Emphasized": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Lexend",
+        "fontSize": "11px",
+        "fontWeight": 400,
+        "letterSpacing": "0%",
+        "lineHeight": "14px",
+        "textTransform": "none",
+        "textDecoration": "none"
+      }
+    }
+  },
+  "Deal Text": {
+    "Large": {
+      "$type": "typography",
+      "$description": "Product Details",
+      "$value": {
+        "fontFamily": "Lexend",
+        "fontSize": "28px",
+        "fontWeight": 500,
+        "letterSpacing": "0%",
+        "lineHeight": "36px",
+        "textTransform": "none",
+        "textDecoration": "none"
+      }
+    },
+    "Small": {
+      "$type": "typography",
+      "$description": "Product Card",
+      "$value": {
+        "fontFamily": "Lexend",
+        "fontSize": "18px",
+        "fontWeight": 500,
+        "letterSpacing": "0%",
+        "lineHeight": "24px",
+        "textTransform": "none",
+        "textDecoration": "none"
+      }
+    }
+  },
+  "Skin": {
+    "Mercatus": {
+      "Display": {
+        "Large": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "Lexend",
+            "fontSize": "40px",
+            "fontWeight": 600,
+            "letterSpacing": "0%",
+            "lineHeight": "48px",
+            "textTransform": "none",
+            "textDecoration": "none"
+          }
+        },
+        "Medium": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "Lexend",
+            "fontSize": "32px",
+            "fontWeight": 600,
+            "letterSpacing": "0%",
+            "lineHeight": "40px",
+            "textTransform": "none",
+            "textDecoration": "none"
+          }
+        }
+      },
+      "Display Mobile": {
+        "Large": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "Lexend",
+            "fontSize": "34px",
+            "fontWeight": 600,
+            "letterSpacing": "0%",
+            "lineHeight": "42px",
+            "textTransform": "none",
+            "textDecoration": "none"
+          }
+        },
+        "Medium": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "Lexend",
+            "fontSize": "26px",
+            "fontWeight": 600,
+            "letterSpacing": "0%",
+            "lineHeight": "34px",
+            "textTransform": "none",
+            "textDecoration": "none"
+          }
+        }
+      },
+      "Headlines": {
+        "Large": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "Lexend",
+            "fontSize": "24px",
+            "fontWeight": 400,
+            "letterSpacing": "0%",
+            "lineHeight": "32px",
+            "textTransform": "none",
+            "textDecoration": "none"
+          }
+        },
+        "Medium": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "Lexend",
+            "fontSize": "20px",
+            "fontWeight": 400,
+            "letterSpacing": "0%",
+            "lineHeight": "28px",
+            "textTransform": "none",
+            "textDecoration": "none"
+          }
+        },
+        "Small": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "Lexend",
+            "fontSize": "18px",
+            "fontWeight": 400,
+            "letterSpacing": "0%",
+            "lineHeight": "24px",
+            "textTransform": "none",
+            "textDecoration": "none"
+          }
+        }
+      },
+      "Button Labels": {
+        "Medium": {
+          "Regular": {
+            "$type": "typography",
+            "$value": {
+              "fontFamily": "Lexend",
+              "fontSize": "16px",
+              "fontWeight": 500,
+              "letterSpacing": "0%",
+              "lineHeight": "24px",
+              "textTransform": "none",
+              "textDecoration": "none"
+            }
+          },
+          "Regular Underlined": {
+            "$type": "typography",
+            "$value": {
+              "fontFamily": "Lexend",
+              "fontSize": "16px",
+              "fontWeight": 500,
+              "letterSpacing": "0%",
+              "lineHeight": "24px",
+              "textTransform": "none",
+              "textDecoration": "underline"
+            }
+          }
+        },
+        "Small": {
+          "Regular Underlined": {
+            "$type": "typography",
+            "$value": {
+              "fontFamily": "Lexend",
+              "fontSize": "14px",
+              "fontWeight": 400,
+              "letterSpacing": "0%",
+              "lineHeight": "20px",
+              "textTransform": "none",
+              "textDecoration": "underline"
+            }
+          },
+          "Emphasized": {
+            "$type": "typography",
+            "$value": {
+              "fontFamily": "Lexend",
+              "fontSize": "14px",
+              "fontWeight": 500,
+              "letterSpacing": "0%",
+              "lineHeight": "20px",
+              "textTransform": "none",
+              "textDecoration": "none"
+            }
+          },
+          "Emphasized Underlined": {
+            "$type": "typography",
+            "$value": {
+              "fontFamily": "Lexend",
+              "fontSize": "14px",
+              "fontWeight": 500,
+              "letterSpacing": "0%",
+              "lineHeight": "20px",
+              "textTransform": "none",
+              "textDecoration": "underline"
+            }
+          }
+        }
+      }
+    },
+    "Buehler’s Fresh Foods": {
+      "Display": {
+        "Large": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "Jost",
+            "fontSize": "40px",
+            "fontWeight": 600,
+            "letterSpacing": "0%",
+            "lineHeight": "48px",
+            "textTransform": "none",
+            "textDecoration": "none"
+          }
+        },
+        "Medium": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "Jost",
+            "fontSize": "32px",
+            "fontWeight": 600,
+            "letterSpacing": "0%",
+            "lineHeight": "40px",
+            "textTransform": "none",
+            "textDecoration": "none"
+          }
+        }
+      },
+      "Headlines": {
+        "Large": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "Jost",
+            "fontSize": "24px",
+            "fontWeight": 500,
+            "letterSpacing": "0%",
+            "lineHeight": "32px",
+            "textTransform": "none",
+            "textDecoration": "none"
+          }
+        },
+        "Medium": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "Jost",
+            "fontSize": "20px",
+            "fontWeight": 500,
+            "letterSpacing": "0%",
+            "lineHeight": "28px",
+            "textTransform": "none",
+            "textDecoration": "none"
+          }
+        },
+        "Small": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "Jost",
+            "fontSize": "18px",
+            "fontWeight": 500,
+            "letterSpacing": "0%",
+            "lineHeight": "24px",
+            "textTransform": "none",
+            "textDecoration": "none"
+          }
+        }
+      },
+      "Button Labels": {
+        "Medium": {
+          "Regular": {
+            "$type": "typography",
+            "$value": {
+              "fontFamily": "Jost",
+              "fontSize": "16px",
+              "fontWeight": 500,
+              "letterSpacing": "0%",
+              "lineHeight": "24px",
+              "textTransform": "none",
+              "textDecoration": "none"
+            }
+          },
+          "Regular Underlined": {
+            "$type": "typography",
+            "$value": {
+              "fontFamily": "Jost",
+              "fontSize": "16px",
+              "fontWeight": 500,
+              "letterSpacing": "0%",
+              "lineHeight": "24px",
+              "textTransform": "none",
+              "textDecoration": "underline"
+            }
+          }
+        },
+        "Small": {
+          "Regular Underlined": {
+            "$type": "typography",
+            "$value": {
+              "fontFamily": "Jost",
+              "fontSize": "14px",
+              "fontWeight": 400,
+              "letterSpacing": "0%",
+              "lineHeight": "20px",
+              "textTransform": "none",
+              "textDecoration": "underline"
+            }
+          },
+          "Emphasized": {
+            "$type": "typography",
+            "$value": {
+              "fontFamily": "Jost",
+              "fontSize": "14px",
+              "fontWeight": 500,
+              "letterSpacing": "0%",
+              "lineHeight": "20px",
+              "textTransform": "none",
+              "textDecoration": "none"
+            }
+          },
+          "Emphasized Underlined": {
+            "$type": "typography",
+            "$value": {
+              "fontFamily": "Jost",
+              "fontSize": "14px",
+              "fontWeight": 500,
+              "letterSpacing": "0%",
+              "lineHeight": "20px",
+              "textTransform": "none",
+              "textDecoration": "underline"
+            }
+          }
+        }
+      },
+      "Display Mobile": {
+        "Large": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "Jost",
+            "fontSize": "34px",
+            "fontWeight": 600,
+            "letterSpacing": "0%",
+            "lineHeight": "42px",
+            "textTransform": "none",
+            "textDecoration": "none"
+          }
+        },
+        "Medium": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "Jost",
+            "fontSize": "26px",
+            "fontWeight": 600,
+            "letterSpacing": "0%",
+            "lineHeight": "34px",
+            "textTransform": "none",
+            "textDecoration": "none"
+          }
+        }
+      }
+    }
+  },
+  "_TEST Font System": {
+    "Body": {
+      "Medium": {
+        "Regular": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "Lexend",
+            "fontSize": "16px",
+            "fontWeight": 300,
+            "letterSpacing": "0%",
+            "lineHeight": "24px",
+            "textTransform": "none",
+            "textDecoration": "none"
+          }
+        },
+        "Emphasized": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "Lexend",
+            "fontSize": "16px",
+            "fontWeight": 400,
+            "letterSpacing": "0%",
+            "lineHeight": "24px",
+            "textTransform": "none",
+            "textDecoration": "none"
+          }
+        }
+      },
+      "Small": {
+        "Regular": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "Lexend",
+            "fontSize": "14px",
+            "fontWeight": 300,
+            "letterSpacing": "0%",
+            "lineHeight": "20px",
+            "textTransform": "none",
+            "textDecoration": "none"
+          }
+        },
+        "Emphasized": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "Lexend",
+            "fontSize": "14px",
+            "fontWeight": 400,
+            "letterSpacing": "0%",
+            "lineHeight": "20px",
+            "textTransform": "none",
+            "textDecoration": "none"
+          }
+        }
+      }
+    },
+    "Skin": {
+      "Display": {
+        "Large": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "Lexend",
+            "fontSize": "32px",
+            "fontWeight": 600,
+            "letterSpacing": "0%",
+            "lineHeight": "40px",
+            "textTransform": "none",
+            "textDecoration": "none"
+          }
+        },
+        "Medium": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "Lexend",
+            "fontSize": "32px",
+            "fontWeight": 600,
+            "letterSpacing": "0%",
+            "lineHeight": "40px",
+            "textTransform": "none",
+            "textDecoration": "none"
+          }
+        }
+      },
+      "Headlines": {
+        "Large": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "Lexend",
+            "fontSize": "24px",
+            "fontWeight": 500,
+            "letterSpacing": "0%",
+            "lineHeight": "32px",
+            "textTransform": "none",
+            "textDecoration": "none"
+          }
+        },
+        "Medium": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "Lexend",
+            "fontSize": "20px",
+            "fontWeight": 500,
+            "letterSpacing": "0%",
+            "lineHeight": "28px",
+            "textTransform": "none",
+            "textDecoration": "none"
+          }
+        },
+        "Small": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "Lexend",
+            "fontSize": "18px",
+            "fontWeight": 500,
+            "letterSpacing": "0%",
+            "lineHeight": "24px",
+            "textTransform": "none",
+            "textDecoration": "none"
+          }
+        }
+      },
+      "Button Labels": {
+        "Medium": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "Lexend",
+            "fontSize": "16px",
+            "fontWeight": 500,
+            "letterSpacing": "0%",
+            "lineHeight": "24px",
+            "textTransform": "none",
+            "textDecoration": "none"
+          }
+        },
+        "Small": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "Lexend",
+            "fontSize": "14px",
+            "fontWeight": 500,
+            "letterSpacing": "0%",
+            "lineHeight": "20px",
+            "textTransform": "none",
+            "textDecoration": "none"
+          }
+        }
+      }
+    },
+    "Subtext": {
+      "Regular": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "Lexend",
+          "fontSize": "12px",
+          "fontWeight": 300,
+          "letterSpacing": "0%",
+          "lineHeight": "16px",
+          "textTransform": "none",
+          "textDecoration": "none"
+        }
+      },
+      "Emphasized": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "Lexend",
+          "fontSize": "12px",
+          "fontWeight": 400,
+          "letterSpacing": "0%",
+          "lineHeight": "16px",
+          "textTransform": "none",
+          "textDecoration": "none"
+        }
+      }
+    },
+    "Caption": {
+      "Regular": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "Lexend",
+          "fontSize": "11px",
+          "fontWeight": 300,
+          "letterSpacing": "0%",
+          "lineHeight": "14px",
+          "textTransform": "none",
+          "textDecoration": "none"
+        }
+      },
+      "Emphasized": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "Lexend",
+          "fontSize": "11px",
+          "fontWeight": 400,
+          "letterSpacing": "0%",
+          "lineHeight": "14px",
+          "textTransform": "none",
+          "textDecoration": "none"
+        }
+      }
+    },
+    "Deal Text": {
+      "Large": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "Lexend",
+          "fontSize": "28px",
+          "fontWeight": 500,
+          "letterSpacing": "0%",
+          "lineHeight": "36px",
+          "textTransform": "none",
+          "textDecoration": "none"
+        }
+      },
+      "Small": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "Lexend",
+          "fontSize": "18px",
+          "fontWeight": 500,
+          "letterSpacing": "0%",
+          "lineHeight": "24px",
+          "textTransform": "none",
+          "textDecoration": "none"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,212 @@
+{
+  "brand-typography": {
+    "font-family": {
+      "$type": "string",
+      "$value": "{brand.mercatus.font-family}"
+    },
+    "display": {
+      "large": {
+        "font-weight": {
+          "$type": "string",
+          "$value": "{typography.font-weight.600}"
+        }
+      },
+      "medium": {
+        "font-weight": {
+          "$type": "string",
+          "$value": "{typography.font-weight.600}"
+        }
+      }
+    },
+    "headlines": {
+      "large": {
+        "font-weight": {
+          "$type": "string",
+          "$value": "{typography.font-weight.500}"
+        }
+      },
+      "medium": {
+        "font-weight": {
+          "$type": "string",
+          "$value": "{typography.font-weight.500}"
+        }
+      },
+      "small": {
+        "font-weight": {
+          "$type": "string",
+          "$value": "{typography.font-weight.500}"
+        }
+      }
+    },
+    "button-label": {
+      "medium": {
+        "font-weight": {
+          "$type": "string",
+          "$value": "{typography.font-weight.500}"
+        }
+      },
+      "small": {
+        "font-weight": {
+          "$type": "string",
+          "$value": "{typography.font-weight.500}"
+        }
+      }
+    }
+  },
+  "color": {
+    "border": {
+      "brand": {
+        "$type": "color",
+        "$value": "{brand.mercatus.primary}"
+      }
+    },
+    "surface": {
+      "button": {
+        "filled": {
+          "brand": {
+            "$type": "color",
+            "$value": "{brand.mercatus.primary}"
+          },
+          "brand-hovered": {
+            "$type": "color",
+            "$value": "{brand.mercatus.secondary}"
+          }
+        }
+      },
+      "header": {
+        "top": {
+          "brand": {
+            "$type": "color",
+            "$value": "{brand.mercatus.primary}"
+          }
+        },
+        "middle": {
+          "brand": {
+            "$type": "color",
+            "$value": "{brand.mercatus.primary}"
+          }
+        },
+        "bottom": {
+          "brand": {
+            "$type": "color",
+            "$value": "{brand.mercatus.secondary}"
+          }
+        }
+      },
+      "footer": {
+        "links": {
+          "brand": {
+            "$type": "color",
+            "$value": "{color.neutral.200}"
+          }
+        },
+        "social": {
+          "brand": {
+            "$type": "color",
+            "$value": "{color.neutral.200}"
+          }
+        },
+        "legal": {
+          "brand": {
+            "$type": "color",
+            "$value": "{color.neutral.100}"
+          }
+        }
+      },
+      "selector": {
+        "brand": {
+          "$type": "color",
+          "$value": "{brand.mercatus.primary}"
+        }
+      }
+    },
+    "text": {
+      "selector": {
+        "brand": {
+          "$type": "color",
+          "$value": "{brand.mercatus.primary}"
+        }
+      },
+      "button": {
+        "filled": {
+          "brand": {
+            "$type": "color",
+            "$value": "{color.neutral.100}"
+          }
+        },
+        "text": {
+          "brand": {
+            "$type": "color",
+            "$value": "{brand.mercatus.primary}"
+          },
+          "brand-hovered": {
+            "$type": "color",
+            "$value": "{brand.mercatus.secondary}"
+          },
+          "on-color": {
+            "$type": "color",
+            "$value": "{color.neutral.100}"
+          }
+        }
+      },
+      "header": {
+        "courtesy": {
+          "brand": {
+            "$type": "color",
+            "$value": "{color.neutral.100}"
+          }
+        },
+        "main": {
+          "brand": {
+            "$type": "color",
+            "$value": "{color.neutral.100}"
+          }
+        },
+        "bottombar": {
+          "brand": {
+            "$type": "color",
+            "$value": "{color.neutral.100}"
+          }
+        }
+      },
+      "footer": {
+        "links": {
+          "brand": {
+            "$type": "color",
+            "$value": "{color.neutral.900}"
+          }
+        },
+        "social": {
+          "brand": {
+            "$type": "color",
+            "$value": "{color.neutral.900}"
+          }
+        },
+        "legal": {
+          "brand": {
+            "$type": "color",
+            "$value": "{color.neutral.900}"
+          }
+        }
+      }
+    },
+    "icon": {
+      "on-color": {
+        "$type": "color",
+        "$value": "{color.neutral.100}"
+      },
+      "brand": {
+        "$type": "color",
+        "$value": "{brand.mercatus.primary}"
+      },
+      "brand-hovered": {
+        "$type": "color",
+        "$value": "{brand.mercatus.secondary}"
+      }
+    }
+  },
+  "brand-border-radius": {
+    "$type": "dimension",
+    "$value": "{border.radius.rounded}"
+  }
+}

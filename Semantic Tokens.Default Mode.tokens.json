@@ -1,0 +1,484 @@
+{
+  "color": {
+    "bg": {
+      "$type": "color",
+      "$value": "{color.neutral.100}",
+      "$description": "The default background color",
+      "contrast": {
+        "$type": "color",
+        "$value": "{color.neutral.200}",
+        "$description": "The background that need to provide more contrast with their content"
+      }
+    },
+    "text": {
+      "secondary": {
+        "$type": "color",
+        "$value": "{color.neutral.700}",
+        "$description": "Use for text that has secondary prominence"
+      },
+      "on-color": {
+        "$type": "color",
+        "$value": "{color.neutral.100}",
+        "$description": "Use for text that has secondary prominence"
+      },
+      "info": {
+        "$type": "color",
+        "$value": "{color.teal.900}",
+        "$description": "Use for text communicating important information"
+      },
+      "placeholder": {
+        "$type": "color",
+        "$value": "{color.teal.900}",
+        "$description": "Use for placeholder text"
+      },
+      "alert": {
+        "$type": "color",
+        "$value": "{color.red.900}",
+        "$description": "Use for text communicating error messages"
+      },
+      "pricing": {
+        "$type": "color",
+        "$value": "{color.neutral.900}",
+        "$description": "Use for displaying regular price",
+        "deal": {
+          "$type": "color",
+          "$value": "{color.red.900}",
+          "$description": "Use for displaying deal types that include sale information"
+        },
+        "secondary": {
+          "$type": "color",
+          "$value": "{color.neutral.700}",
+          "$description": "Use for displaying deal types that include sale information"
+        }
+      },
+      "input": {
+        "label": {
+          "$type": "color",
+          "$value": "{color.teal.900}",
+          "$description": "Use for labels, e.g. Label on input fields"
+        }
+      },
+      "$type": "color",
+      "$value": "{color.neutral.900}",
+      "$description": "The default text color"
+    },
+    "surface": {
+      "hovered": {
+        "$type": "color",
+        "$value": "{color.neutral.200}",
+        "$description": "The background color of a component on hovered state."
+      },
+      "secondary": {
+        "$type": "color",
+        "$value": "{color.teal.200}",
+        "$description": "The secondary background color of a component, e.g. Coupon card on product details page"
+      },
+      "read-only": {
+        "$type": "color",
+        "$value": "{color.neutral.200}",
+        "$description": "The background color for a component that has read-only state, e.g. Read-only input field"
+      },
+      "deal": {
+        "$type": "color",
+        "$value": "{color.red.900}",
+        "$description": "Use for backgrounds communicating deal information, e.g. Sale ribbon"
+      },
+      "alert": {
+        "$type": "color",
+        "$value": "{color.red.200}",
+        "$description": "Use for backgrounds communicating alerting information, e.g. Error messages"
+      },
+      "info": {
+        "$type": "color",
+        "$value": "{color.blue.200}",
+        "$description": "Use for backgrounds communicating important information, e.g. Information banner"
+      },
+      "success": {
+        "$type": "color",
+        "$value": "{color.green.200}",
+        "$description": "Use for backgrounds communicating success information, e.g. Success banner"
+      },
+      "warning": {
+        "$type": "color",
+        "$value": "{color.yellow.200}",
+        "$description": "Use for backgrounds communicating warning information, e.g. Warning banner"
+      },
+      "overlay-bg": {
+        "modal": {
+          "$type": "color",
+          "$value": "{color.neutral.900}"
+        },
+        "loading": {
+          "$type": "color",
+          "$value": "{color.neutral.100}"
+        }
+      },
+      "$type": "color",
+      "$value": "{color.neutral.100}",
+      "$description": "The default background color of a component, e.g. Product card."
+    },
+    "border": {
+      "$type": "color",
+      "$value": "{color.neutral.400}",
+      "$description": "The default border color",
+      "secondary": {
+        "$type": "color",
+        "$value": "{color.neutral.300}",
+        "$description": "The default border color"
+      },
+      "divider": {
+        "$type": "color",
+        "$value": "{color.neutral.300}",
+        "$description": "The default border color",
+        "secondary": {
+          "$type": "color",
+          "$value": "{color.neutral.400}",
+          "$description": "The default border color"
+        },
+        "solid": {
+          "$type": "color",
+          "$value": "{color.neutral.900}",
+          "$description": "The default border color"
+        }
+      },
+      "hovered": {
+        "$type": "color",
+        "$value": "{color.neutral.900}"
+      },
+      "selector": {
+        "$type": "color",
+        "$value": "{color.neutral.600}"
+      },
+      "alert": {
+        "$type": "color",
+        "$value": "{color.red.900}"
+      }
+    },
+    "icon": {
+      "$type": "color",
+      "$value": "{color.neutral.900}",
+      "secondary": {
+        "$type": "color",
+        "$value": "{color.neutral.700}"
+      },
+      "hovered": {
+        "$type": "color",
+        "$value": "{color.neutral.400}"
+      },
+      "inactive": {
+        "$type": "color",
+        "$value": "{color.neutral.400}"
+      },
+      "input": {
+        "password": {
+          "$type": "color",
+          "$value": "{color.teal.900}"
+        }
+      },
+      "info": {
+        "$type": "color",
+        "$value": "{color.blue.900}"
+      },
+      "warning": {
+        "$type": "color",
+        "$value": "{color.yellow.900}"
+      },
+      "success": {
+        "$type": "color",
+        "$value": "{color.green.900}"
+      },
+      "alert": {
+        "$type": "color",
+        "$value": "{color.red.900}"
+      }
+    }
+  },
+  "typography": {
+    "display": {
+      "large": {
+        "font-size": {
+          "$type": "dimension",
+          "$value": "{typography.font-size.1000}"
+        },
+        "line-height": {
+          "$type": "dimension",
+          "$value": "{typography.line-height.900}"
+        }
+      },
+      "medium": {
+        "font-size": {
+          "$type": "dimension",
+          "$value": "{typography.font-size.900}"
+        },
+        "line-height": {
+          "$type": "dimension",
+          "$value": "{typography.line-height.800}"
+        }
+      }
+    },
+    "platform": {
+      "font-family": {
+        "$type": "string",
+        "$value": "Lexend"
+      }
+    },
+    "headlines": {
+      "large": {
+        "font-size": {
+          "$type": "dimension",
+          "$value": "{typography.font-size.700}"
+        },
+        "line-height": {
+          "$type": "dimension",
+          "$value": "{typography.line-height.600}"
+        }
+      },
+      "medium": {
+        "font-size": {
+          "$type": "dimension",
+          "$value": "{typography.font-size.600}"
+        },
+        "line-height": {
+          "$type": "dimension",
+          "$value": "{typography.line-height.500}"
+        }
+      },
+      "small": {
+        "font-size": {
+          "$type": "dimension",
+          "$value": "{typography.font-size.500}"
+        },
+        "line-height": {
+          "$type": "dimension",
+          "$value": "{typography.line-height.400}"
+        }
+      }
+    },
+    "button-labels": {
+      "medium": {
+        "font-size": {
+          "$type": "dimension",
+          "$value": "{typography.font-size.400}"
+        },
+        "line-height": {
+          "$type": "dimension",
+          "$value": "{typography.line-height.400}"
+        }
+      },
+      "small": {
+        "font-size": {
+          "$type": "dimension",
+          "$value": "{typography.font-size.300}"
+        },
+        "line-height": {
+          "$type": "dimension",
+          "$value": "{typography.line-height.300}"
+        }
+      }
+    },
+    "body": {
+      "medium": {
+        "font-size": {
+          "$type": "dimension",
+          "$value": "{typography.font-size.400}"
+        },
+        "line-height": {
+          "$type": "dimension",
+          "$value": "{typography.line-height.400}"
+        },
+        "font-weight": {
+          "regular": {
+            "$type": "string",
+            "$value": "{typography.font-weight.300}"
+          },
+          "emphasized": {
+            "$type": "string",
+            "$value": "{typography.font-weight.400}"
+          }
+        }
+      },
+      "small": {
+        "font-size": {
+          "$type": "dimension",
+          "$value": "{typography.font-size.300}"
+        },
+        "line-height": {
+          "$type": "dimension",
+          "$value": "{typography.line-height.300}"
+        },
+        "font-weight": {
+          "regular": {
+            "$type": "string",
+            "$value": "{typography.font-weight.300}"
+          },
+          "emphasized": {
+            "$type": "string",
+            "$value": "{typography.font-weight.400}"
+          }
+        }
+      }
+    },
+    "subtext": {
+      "font-size": {
+        "$type": "dimension",
+        "$value": "{typography.font-size.200}"
+      },
+      "font-weight": {
+        "regular": {
+          "$type": "string",
+          "$value": "{typography.font-weight.300}"
+        },
+        "emphasized": {
+          "$type": "string",
+          "$value": "{typography.font-weight.400}"
+        }
+      },
+      "line-height": {
+        "$type": "dimension",
+        "$value": "{typography.line-height.200}"
+      }
+    },
+    "caption": {
+      "font-size": {
+        "$type": "dimension",
+        "$value": "{typography.font-size.100}"
+      },
+      "line-height": {
+        "$type": "dimension",
+        "$value": "{typography.line-height.100}"
+      },
+      "font-weight": {
+        "regular": {
+          "$type": "string",
+          "$value": "{typography.font-weight.300}"
+        },
+        "emphasized": {
+          "$type": "string",
+          "$value": "{typography.font-weight.400}"
+        }
+      }
+    },
+    "deal": {
+      "font-weight": {
+        "$type": "string",
+        "$value": "{typography.font-weight.500}"
+      },
+      "product-details": {
+        "font-size": {
+          "$type": "dimension",
+          "$value": "{typography.font-size.800}"
+        },
+        "line-height": {
+          "$type": "dimension",
+          "$value": "{typography.line-height.700}"
+        }
+      },
+      "product-card": {
+        "font-size": {
+          "$type": "dimension",
+          "$value": "{typography.font-size.500}"
+        },
+        "line-height": {
+          "$type": "dimension",
+          "$value": "{typography.line-height.400}"
+        }
+      }
+    }
+  },
+  "font-size": {
+    "$type": "dimension",
+    "$value": "{typography.font-size.300}"
+  },
+  "line-height": {
+    "$type": "dimension",
+    "$value": "{typography.line-height.300}"
+  },
+  "regular": {
+    "$type": "string",
+    "$value": "{typography.font-weight.300}"
+  },
+  "emphasized": {
+    "$type": "string",
+    "$value": "{typography.font-weight.400}"
+  },
+  "opacity": {
+    "overlay-bg": {
+      "loading": {
+        "$type": "dimension",
+        "$value": "{opacity.750}"
+      },
+      "$type": "dimension",
+      "$value": "{opacity.400}"
+    },
+    "disabled": {
+      "$type": "dimension",
+      "$value": "{opacity.400}"
+    }
+  },
+  "spacing": {
+    "button-group-gap": {
+      "$type": "dimension",
+      "$value": "{spacing.200}"
+    },
+    "card-gap-large": {
+      "$type": "dimension",
+      "$value": "{spacing.300}"
+    },
+    "card-gap-medium": {
+      "$type": "dimension",
+      "$value": "{spacing.150}"
+    },
+    "input-gap": {
+      "$type": "dimension",
+      "$value": "{spacing.250}"
+    },
+    "selector-group-gap-large": {
+      "$type": "dimension",
+      "$value": "{spacing.300}"
+    },
+    "selector-group-gap-medium": {
+      "$type": "dimension",
+      "$value": "{spacing.150}"
+    },
+    "section": {
+      "between-large": {
+        "$type": "dimension",
+        "$value": "{spacing.1000}"
+      },
+      "between-medium": {
+        "$type": "dimension",
+        "$value": "{spacing.500}"
+      }
+    },
+    "horizontal-padding": {
+      "large": {
+        "$type": "dimension",
+        "$value": "{spacing.300}"
+      },
+      "medium": {
+        "$type": "dimension",
+        "$value": "{spacing.200}"
+      }
+    }
+  },
+  "width": {
+    "modal": {
+      "small": {
+        "$type": "dimension",
+        "$value": "{width.small}"
+      },
+      "medium": {
+        "$type": "dimension",
+        "$value": "{width.medium}"
+      },
+      "large": {
+        "$type": "dimension",
+        "$value": "{width.large}"
+      }
+    },
+    "dialog": {
+      "$type": "dimension",
+      "$value": "{width.x-small}"
+    }
+  }
+}

@@ -1,0 +1,280 @@
+{
+  "Neutral": {
+    "N-12": {
+      "$type": "color",
+      "$description": "Title;Header;Body",
+      "$value": "#121212"
+    },
+    "N-33": {
+      "$type": "color",
+      "$value": "#333333"
+    },
+    "N-55": {
+      "$type": "color",
+      "$value": "#555555"
+    },
+    "N-76": {
+      "$type": "color",
+      "$description": "The minimal standard colour to meet the WCGA",
+      "$value": "#767676"
+    },
+    "N-99": {
+      "$type": "color",
+      "$value": "#999999"
+    },
+    "N-D8": {
+      "$type": "color",
+      "$description": "Container Border",
+      "$value": "#d8d8d8"
+    },
+    "N-EE": {
+      "$type": "color",
+      "$description": "Border Colour",
+      "$value": "#eeeeee"
+    },
+    "N-F7": {
+      "$type": "color",
+      "$description": "Light Background",
+      "$value": "#f7f7f7"
+    },
+    "N-FF": {
+      "$type": "color",
+      "$description": "Pure White",
+      "$value": "#ffffff"
+    }
+  },
+  "Semantic": {
+    "Helper": {
+      "$type": "color",
+      "$value": "#647281"
+    },
+    "Helper-BG": {
+      "$type": "color",
+      "$value": "#f7f8f9"
+    },
+    "Pricing & Deals": {
+      "Default": {
+        "$type": "color",
+        "$value": "#121212"
+      },
+      "Deal": {
+        "$type": "color",
+        "$value": "#da0808"
+      }
+    },
+    "Feedback": {
+      "Success": {
+        "$type": "color",
+        "$value": "#008000"
+      },
+      "Alert": {
+        "$type": "color",
+        "$value": "#da0808"
+      },
+      "Info": {
+        "$type": "color",
+        "$value": "#009fc2"
+      },
+      "Warning": {
+        "$type": "color",
+        "$value": "#ffb100"
+      },
+      "Success-bg": {
+        "$type": "color",
+        "$value": "#e5f2e5"
+      },
+      "Alert-bg": {
+        "$type": "color",
+        "$value": "#fdf3f3"
+      },
+      "Info-bg": {
+        "$type": "color",
+        "$value": "#e5f5f9"
+      },
+      "Warning-bg": {
+        "$type": "color",
+        "$value": "#fff7e5"
+      }
+    },
+    "Overlay Bg": {
+      "Black Overlay Bg": {
+        "$type": "color",
+        "$description": "Overlay Background",
+        "$value": "#00000066"
+      },
+      "White Overlay Bg": {
+        "$type": "color",
+        "$description": "When page is loading",
+        "$value": "#ffffffbf"
+      }
+    }
+  },
+  "Skin": {
+    "Buehler's": {
+      "Primary": {
+        "$type": "color",
+        "$description": "Primary accessible brand green",
+        "$value": "#4a7729"
+      },
+      "Secondary": {
+        "$type": "color",
+        "$description": "Hover State",
+        "$value": "#3e6422"
+      },
+      "On Primary": {
+        "$type": "color",
+        "$value": "#ffffff"
+      }
+    },
+    "Harveys": {
+      "Primary": {
+        "$type": "color",
+        "$value": "#215732"
+      },
+      "Secondary": {
+        "$type": "color",
+        "$description": "Hover State",
+        "$value": "#1a4527"
+      },
+      "On Primary": {
+        "$type": "color",
+        "$value": "#ffffff"
+      }
+    },
+    "Kowalski's": {
+      "Primary": {
+        "$type": "color",
+        "$value": "#010000"
+      },
+      "Secondary": {
+        "$type": "color",
+        "$value": "#1a0000"
+      },
+      "On Primary": {
+        "$type": "color",
+        "$value": "#ffffff"
+      }
+    },
+    "Lucky Market": {
+      "Primary": {
+        "$type": "color",
+        "$value": "#d22630"
+      },
+      "Secondary": {
+        "$type": "color",
+        "$value": "#bc222b"
+      },
+      "On Primary": {
+        "$type": "color",
+        "$value": "#ffffff"
+      }
+    },
+    "Mercatus": {
+      "Primary": {
+        "$type": "color",
+        "$value": "#008000"
+      },
+      "Secondary": {
+        "$type": "color",
+        "$value": "#006700"
+      },
+      "On Primary": {
+        "$type": "color",
+        "$value": "#ffffff"
+      }
+    },
+    "Piggly Wiggly": {
+      "Primary": {
+        "$type": "color",
+        "$value": "#c4202c"
+      },
+      "Secondary": {
+        "$type": "color",
+        "$value": "#ae1c27"
+      },
+      "On Primary": {
+        "$type": "color",
+        "$value": "#ffffff"
+      }
+    },
+    "Save Mart": {
+      "Primary": {
+        "$type": "color",
+        "$value": "#658d1b"
+      }
+    },
+    "StaterBros": {
+      "Primary": {
+        "$type": "color",
+        "$value": "#d81a1d"
+      },
+      "Secondary": {
+        "$type": "color",
+        "$description": "Primary Colour Darken 5%",
+        "$value": "#c1171a"
+      },
+      "On Primary": {
+        "$type": "color",
+        "$value": "#ffffff"
+      }
+    },
+    "United Supermarkets": {
+      "Primary": {
+        "$type": "color",
+        "$value": "#1c3764"
+      },
+      "Secondary": {
+        "$type": "color",
+        "$value": "#162c50"
+      },
+      "On Primary": {
+        "$type": "color",
+        "$value": "#ffffff"
+      }
+    },
+    "Weis Markets": {
+      "Primary": {
+        "$type": "color",
+        "$value": "#eb3123"
+      },
+      "Secondary": {
+        "$type": "color",
+        "$description": "Hover State, Primary Colour Darken 5%",
+        "$value": "#e02314"
+      },
+      "On Primary": {
+        "$type": "color",
+        "$value": "#ffffff"
+      }
+    },
+    "WinCo": {
+      "Primary": {
+        "$type": "color",
+        "$value": "#c6222b"
+      },
+      "Secondary": {
+        "$type": "color",
+        "$value": "#b01e26"
+      },
+      "On Primary": {
+        "$type": "color",
+        "$value": "#ffffff"
+      }
+    },
+    "Winn Dixie": {
+      "Primary": {
+        "$type": "color",
+        "$value": "#c8102e"
+      },
+      "Secondary": {
+        "$type": "color",
+        "$description": "Hover State",
+        "$value": "#b00e29"
+      },
+      "On Primary": {
+        "$type": "color",
+        "$value": "#ffffff"
+      }
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "Info Frame Shadow": {
+    "$type": "shadow",
+    "$description": "Can Be used for Thumbnail Covers etc...",
+    "$value": [
+      {
+        "offsetX": "0px",
+        "offsetY": "0px",
+        "blur": "1px",
+        "spread": "0px",
+        "color": "#3031330d"
+      },
+      {
+        "offsetX": "0px",
+        "offsetY": "4px",
+        "blur": "4px",
+        "spread": "0px",
+        "color": "#00000040"
+      }
+    ]
+  },
+  "Modality": {
+    "Dropshadow": {
+      "$type": "shadow",
+      "$description": "Used on Modals",
+      "$value": [
+        {
+          "offsetX": "0px",
+          "offsetY": "8px",
+          "blur": "28px",
+          "spread": "0px",
+          "color": "#00000047"
+        }
+      ]
+    }
+  }
+}
